@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "npm test",
+    "test": "ava koans.js"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "ava": {
+    "failFast": true,
+    "serial": true,
+    "watch": true,
+    "verbose": true
+  }
+}
